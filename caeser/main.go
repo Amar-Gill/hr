@@ -8,9 +8,7 @@ func main() {
 	var s string
 	var k int32
 
-	fmt.Print("String to encode: ")
 	fmt.Scanf("%s", &s)
-	fmt.Print("Number of letters to rotate: ")
 	fmt.Scanf("%d", &k)
 
 	fmt.Println(caeser(s, k))
